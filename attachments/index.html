@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8"/>
+		<title>List It!</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no" />
+		<meta name="format-detection" content="telephone=no" />
+		<meta name="apple-mobile-web-app-capable" content="yes"/>
+		<meta name="apple-mobile-web-app-status-bar-style" content="black" />
+		<link rel="stylesheet" href="css/base.css" />
+		<link rel="stylesheet" href="css/iPhone.css" />
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+		<script src="navigation.js"></script>
+		<script src="request.js"></script>
+		<script src="couchDbAjax.js"></script>
+		<script src="ui1.js"></script>
+		<script src="ui2.js"></script>
+		<script src="ui3.js"></script>
+		<script src="ui4.js"></script>
+		<style type="text/css">
+		.panel {
+			overflow: scroll;
+			-webkit-overflow-scrolling: touch;
+		}
+		.content {
+	        padding-left: 24px;
+	        margin-top: 20px;
+    	}
+		.input {
+			width: 100px
+		}
+		.addButton {
+			margin-bottom: 12px;
+		}
+		</style>
+	</head>
+	<body>
+		<div class="box">
+			
+			<div class="panel">
+				<header class="titlebar">
+					<h1>Shop It!</h1>
+				</header>
+				<div class="content">
+					<input type="text" id="input1" class="input"></input>
+					<button id="addButton1" class="addButton btn">add</button>
+					<ul id="list1" class="list"></ul>
+				</div>
+			</div>
+			
+			<div class="panel">
+				<header class="titlebar">
+					<h1>Love It!</h1>
+				</header>
+				<div class="content">
+					<input type="text" id="input2" class="input"></input>
+					<button id="addButton2" class="addButton btn">add</button>
+					<ul id="list2" class="list"></ul>
+				</div>
+			</div>
+			
+			<div class="panel">
+				<header class="titlebar">
+					<h1>Whatever It!</h1>
+				</header>
+				<div class="content">
+					<input type="text" id="input3" class="input"></input>
+					<button id="addButton3" class="addButton btn">add</button>
+					<ul id="list3" class="list"></ul>
+				</div>
+			</div>
+
+			<div class="panel" >
+				<header class="titlebar">
+					<h1>Whatever It!</h1>
+				</header>
+				<div class="content">
+					<input type="text" id="input4" class="input"></input>
+					<button id="addButton4" class="addButton btn">add</button>
+					<ul id="list4" class="list"></ul>
+				</div>
+			</div>
+		
+			
+			<!-- A menu bar -->
+			<nav class="menubar">
+				<div>
+					<div class="menuIcon">
+						1
+					</div>
+					Shop It!
+				</div>
+				<div class="menuActive">
+					<div class="menuIcon">
+						2
+					</div>
+					&lt;3 It!
+				</div>
+				<div>
+					<div class="menuIcon">
+						3
+					</div>
+					etc
+				</div>
+				<div>
+					<div class="menuIcon">
+						4
+					</div>
+					etc
+				</div>
+			</nav>
+		</div>
+	</body>
+	
+</html>
